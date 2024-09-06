@@ -1,0 +1,99 @@
+::ng-deep{
+.caption1{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.paginator{
+display: flex;
+flex-direction: row-reverse;
+justify-content: flex-end;
+}
+
+.p-dropdown{
+    
+order: 1;
+}
+
+.bookbtn{
+    color: white;
+    background: rgb(141,33,235);
+}
+
+.p-paginator-current{   
+order: 2;
+}
+//for header
+
+.p-inputtext{
+    order: 1;
+}
+
+.p-datatable-header{
+    display: flex;
+flex-direction: row;
+
+}
+
+
+.filterbtn{
+    color: gray;
+    border-color: gray;
+outline-color: gray;
+}
+
+.ticketbtn{
+    color :violet;
+    border-color: violet;
+    
+}
+.ticketbtn1{
+color: violet;
+}
+.pi-ticket{
+    color: violet;
+
+}
+.downloadbtn{
+    color: violet;
+    border-color: violet;
+}
+
+.p-button-secondary{
+  
+    background: rgba(231,234,237);
+   
+    
+}
+
+.arrowbtn{
+    color: rgba(145,149,152) ;
+}
+.settingbtn{
+    background: white;
+}
+.editbtn{
+    color: violet;
+    background: white;
+    padding: 4px;
+    margin: 4px;
+    border: none;
+    outline: none;
+}
+
+// .togglebtn .p-inputswitch-slider {
+//     background-color: gray;
+// }
+
+/* Toggled state (when checked) */
+.togglebtn.p-inputswitch-checked .p-inputswitch-slider {
+    background-color: rgb(141,33,235); 
+}
+
+    }
+  
+
+
+
+
+    

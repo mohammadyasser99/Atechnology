@@ -1,0 +1,61 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
+
+
+
+<!-- <app-ticketcard></app-ticketcard> -->
+
+<!-- <app-userstable  /> -->
+
+<div class="container bodybg ">
+  <div class="flex justify-between mb-4" dir="rtl">
+
+    <div class="mx-4">
+        <p-button icon="pi pi-arrow-right arrowbtn" 
+        class="inline align-baseline  border-none arrowbtn" styleClass="p-button-secondary" [text]="true"
+       />
+        <p class="inline-block align-baseline mr-2">تذكرة رقم #2342</p>
+    </div>
+
+    <div class="mx-4">
+        <p-button label=" تعديل "   icon="pi pi-pen-to-square editbtn" [text]="true"  styleClass="editbtn" />
+    </div>
+
+</div>
+
+
+
+  <div class="flex justify-between flex-wrap w-full" >
+    <app-ticketcard class="w-full md:w-1/4 order-1 md:order-1"></app-ticketcard>
+
+    <app-chart class="w-full md:w-3/4 order-2 md:order-1"></app-chart>
+  </div>
+  
+  <div class="w-full mt-4">
+    <app-userstable class="w-full"></app-userstable>
+  </div>
+
+
+
+</div>
+
+
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
+<router-outlet />
